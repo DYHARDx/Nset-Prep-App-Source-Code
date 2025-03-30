@@ -1,0 +1,62 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:overScrollMode="never"
+		android:fillViewport="true">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/book_bg_prt"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="15dp"
+				android:background="@drawable/fltrd"
+				android:gravity="bottom"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Welcome, Future NSTian! 🚀"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingTop="5dp"
+					android:paddingBottom="5dp"
+					android:text="Unlock expert-curated study materials and personalized senior mentorship."
+					android:textSize="16sp"
+					android:textColor="#E0E0E0" />
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:layout_marginBottom="20dp"
+					android:padding="10dp"
+					android:background="#FFFFFF"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Start Reading"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
